@@ -1,117 +1,210 @@
 # AI Bootcamp 🚀
 
-This repository contains my hands-on practice, assignments, and lab work completed during my AI Bootcamp journey. It covers Python programming, NumPy, Pandas, data manipulation, and exploratory data analysis (EDA).
+Welcome to my **AI Bootcamp** repository!
 
-The purpose of this repository is to document my learning progress while building a strong foundation for Artificial Intelligence, Data Analysis, and Machine Learning.
+This repository documents my hands-on learning journey in **Artificial Intelligence, Python, Data Analysis, and Backend Development**. It contains weekly labs, coding exercises, assignments, and practical projects completed throughout the bootcamp.
+
+The primary goal of this repository is to strengthen my problem-solving skills through practical implementation while building a solid foundation for AI, Data Science, and Backend APIs.
+
+---
+
+## 📌 About This Repository
+
+Throughout this bootcamp, I have worked on:
+
+- Python Programming
+- NumPy
+- Pandas
+- Data Manipulation
+- Exploratory Data Analysis (EDA)
+- FastAPI
+- REST API Development
+- CRUD Operations
+- Hands-on Projects
+
+Each week focuses on practical implementation rather than theory, helping me build real-world development skills.
 
 ---
 
 ## 📂 Repository Structure
 
-```
+```text
 ai-bootcamp/
 │
 ├── week1/
 │   ├── week1_lab1/
-│   │   ├── week_lab1.ipynb
-│   │   └── Week1_lab2.ipynb
-│   │
 │   ├── week1_lab2/
-│   │
 │   └── week1_lab3/
-│       ├── hourly_weather_10_days.csv
-│       └── week1_lab3.ipynb
 │
 ├── week2/
-│   └── week2_lab1/
-│       ├── dataframe_basics.ipynb
-│       ├── weather.csv
-│       ├── weather2.csv
-│       ├── weather3.csv
-│       ├── weather_by_cities.csv
-│       ├── weather_data.csv
-│       └── weather_data1.csv
+│   ├── week2_lab1/
+│   ├── week2_lab2/
+│   └── week2_lab3/
+│
+└── README.md
 ```
 
----
+### Repository Contents
 
-## 📚 Topics Covered
+### 📅 Week 1
 
-### Week 1
 - Python Fundamentals
-- Variables and Data Types
+- Data Types
+- Variables
 - Operators
-- Control Flow
+- Conditional Statements
+- Loops
 - Functions
-- Lists, Tuples, Dictionaries
+- Lists, Tuples & Dictionaries
 - NumPy Basics
 - Matrix Operations
 - Weather Data Analysis
 
-### Week 2
-- Introduction to Pandas
-- DataFrame Creation
+---
+
+### 📅 Week 2
+
+#### Lab 1
+- Pandas Fundamentals
+- Series & DataFrames
 - Reading CSV Files
 - Selecting Rows & Columns
 - Filtering Data
-- Handling Missing Values
-- Basic Exploratory Data Analysis (EDA)
+
+#### Lab 2
+- Data Cleaning
+- Missing Values
+- Sorting & Grouping
+- Exploratory Data Analysis (EDA)
+- Working with Real Datasets
+
+#### Lab 3 — FastAPI Todo CRUD Application
+
+A RESTful Todo application built using **FastAPI**.
+
+Features include:
+
+- ✅ Create Todo
+- 📄 Read Todo(s)
+- ✏️ Update Todo
+- ❌ Delete Todo
+- Request Validation using Pydantic
+- RESTful API Design
+- Interactive Swagger Documentation
 
 ---
 
-## 🛠️ Technologies Used
+## 🛠️ Tech Stack
 
 - Python 3
 - Jupyter Notebook
 - NumPy
 - Pandas
+- FastAPI
+- Pydantic
+- Uvicorn
+- Git
+- GitHub
 
 ---
 
-## 🎯 Learning Goals
+## 🚀 Getting Started
 
-- Strengthen Python programming skills.
-- Learn data manipulation using NumPy and Pandas.
-- Perform exploratory data analysis (EDA).
-- Build a solid foundation for Machine Learning and Artificial Intelligence.
-
----
-
-## ▶️ Getting Started
-
-Clone the repository:
+### Clone the repository
 
 ```bash
-git clone https://github.com/<your-username>/ai-bootcamp.git
+git clone https://github.com/ahmadbilal339/ai-bootcamp.git
 ```
 
-Navigate to the project directory:
+### Navigate into the project
 
 ```bash
 cd ai-bootcamp
 ```
 
-Launch Jupyter Notebook:
+### Install dependencies
+
+```bash
+pip install numpy pandas fastapi uvicorn jupyter
+```
+
+### Launch Jupyter Notebook
 
 ```bash
 jupyter notebook
 ```
 
+### Run the FastAPI application
+
+Navigate to the FastAPI project directory and run:
+
+```bash
+uvicorn main:app --reload
+```
+
+Then open your browser:
+
+```
+http://127.0.0.1:8000/docs
+```
+
+to access the interactive Swagger UI.
+
 ---
 
-## 📈 Progress
+## 📈 Learning Progress
 
-- ✅ Week 1 Completed
-- ✅ Week 2 In Progress
+| Week | Topics | Status |
+|------|--------|--------|
+| Week 1 | Python Fundamentals & NumPy | ✅ Completed |
+| Week 2 - Lab 1 | Pandas Fundamentals | ✅ Completed |
+| Week 2 - Lab 2 | Data Cleaning & EDA | ✅ Completed |
+| Week 2 - Lab 3 | FastAPI Todo CRUD API | ✅ Completed |
+| Upcoming | Machine Learning & AI Projects | 🚀 In Progress |
+
+---
+
+## 🎯 Learning Objectives
+
+- Build strong Python programming fundamentals
+- Learn efficient data manipulation using NumPy and Pandas
+- Analyze real-world datasets
+- Develop REST APIs using FastAPI
+- Understand CRUD operations and API design
+- Build a strong foundation for AI and Machine Learning
+
+---
+
+## 📚 Resources
+
+- AI Bootcamp Course Material
+- Python Documentation
+- NumPy Documentation
+- Pandas Documentation
+- FastAPI Documentation
 
 ---
 
 ## 🤝 Contributing
 
-This repository is primarily for my personal learning and practice. Suggestions and feedback are always welcome.
+This repository is primarily intended for learning and practice.
+
+Suggestions, improvements, and feedback are always welcome.
 
 ---
 
-## 📄 License
+## ⭐ Support
 
-This project is intended for educational purposes.
+If you found this repository helpful, please consider giving it a ⭐ on GitHub.
+
+---
+
+## 👨‍💻 Author
+
+**Ahmad Bilal**
+
+- GitHub: https://github.com/ahmadbilal339
+
+---
+
+> **"Learning by building, improving through practice, and growing one project at a time."**
