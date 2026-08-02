@@ -1,28 +1,70 @@
-# 🚀 AI Bootcamp
+# 🤖 AI Bootcamp – Hands-on Learning Journey
 
-Welcome to my **AI Bootcamp** repository!
-
-This repository showcases my hands-on learning journey in **Artificial Intelligence, Python, Data Analysis, Machine Learning, and Backend Development**. It contains weekly labs, assignments, and projects completed throughout the bootcamp.
-
-The goal is to strengthen my programming and analytical skills through practical implementation while building a strong foundation for AI and Machine Learning.
+> A structured, project-based Artificial Intelligence and Machine Learning bootcamp documenting my learning journey from Python fundamentals to Deep Learning through hands-on labs, assignments, and real-world projects.
 
 ---
 
-# 📌 Repository Overview
+# 📖 About This Repository
 
-This repository includes practical work on:
+This repository contains my complete hands-on work completed during an AI Bootcamp. It is designed to document my learning progress through practical exercises, labs, notebooks, and projects covering the foundations of Artificial Intelligence, Machine Learning, and Deep Learning.
 
-- 🐍 Python Programming
-- 🔢 NumPy
-- 🐼 Pandas
-- 📊 Data Analysis
-- 📈 Exploratory Data Analysis (EDA)
-- 🧹 Data Preprocessing
-- ⚙️ Feature Engineering
-- 📉 Outlier Detection
-- 🤖 Machine Learning Fundamentals
-- ⚡ FastAPI
-- 🌐 REST API Development
+Rather than focusing only on theory, the bootcamp emphasizes solving real-world problems through implementation. Each week builds upon the previous one, gradually introducing more advanced concepts and technologies.
+
+---
+
+# 🎯 Objectives
+
+This repository demonstrates my understanding of:
+
+- Python Programming
+- Data Analysis
+- Data Preprocessing
+- Exploratory Data Analysis (EDA)
+- REST API Development
+- Machine Learning
+- Deep Learning
+- Model Evaluation
+- Computer Vision Fundamentals
+- AI Development Workflow
+
+---
+
+# 🛠 Technologies & Tools
+
+## Programming
+
+- Python
+
+## Data Analysis
+
+- NumPy
+- Pandas
+
+## Visualization
+
+- Matplotlib
+- Seaborn
+
+## Machine Learning
+
+- Scikit-learn
+
+## Deep Learning
+
+- TensorFlow
+- PyTorch
+
+## Backend Development
+
+- FastAPI
+- Pydantic
+- Uvicorn
+
+## Development Environment
+
+- Jupyter Notebook
+- Git
+- GitHub
 
 ---
 
@@ -31,271 +73,266 @@ This repository includes practical work on:
 ```text
 ai-bootcamp/
 │
+├── README.md
+│
 ├── week1/
-│   ├── week1_lab1/
-│   ├── week1_lab2/
-│   └── week1_lab3/
+│   └── README.md
 │
 ├── week2/
-│   ├── week2_lab1/
-│   ├── week2_lab2/
-│   └── week2_lab3/
-│       └── todo-fastAPI/
+│   └── README.md
 │
 ├── week3/
-│   ├── day1/
-│   ├── day2/
-│   ├── day3/
-│   └── day4/
+│   └── README.md
 │
-└── README.md
+├── week4/
+│   └── README.md
+│
+├── week5/
+│   └── README.md
+│
+└── requirements.txt
 ```
 
 ---
 
-# 📚 Learning Journey
+# 🗓 Weekly Learning Journey
 
-## 📅 Week 1 — Python & NumPy
-
-### Python Fundamentals
-
-- Variables & Data Types
-- Operators
-- Conditional Statements
-- Loops
-- Functions
-- Lists
-- Tuples
-- Dictionaries
-- File Handling
-
-### NumPy
-
-- Arrays
-- Indexing & Slicing
-- Broadcasting
-- Matrix Operations
-- Statistical Functions
-- Random Numbers
-
-### Practice
-
-- Weather Dataset Analysis
-- NumPy Exercises
-- Problem Solving
+| Week | Focus Area | Documentation |
+|------|------------|---------------|
+| Week 1 | Python Fundamentals & NumPy | [📄 Week 1](./week1/README.md) |
+| Week 2 | Pandas & FastAPI | [📄 Week 2](./week2/README.md) |
+| Week 3 | Data Preprocessing & Exploratory Data Analysis | [📄 Week 3](./week3/README.md) |
+| Week 4 | Machine Learning Fundamentals | [📄 Week 4](./week4/README.md) |
+| Week 5 | Deep Learning with TensorFlow & PyTorch | [📄 Week 5](./week5/README.md) |
 
 ---
 
-## 📅 Week 2 — Pandas & Backend Development
+# 📚 Learning Roadmap
 
-### Lab 1 — Pandas Fundamentals
+## ✅ Week 1
 
-- Series
-- DataFrames
-- Reading CSV Files
-- Selecting Rows & Columns
-- Filtering
-- Sorting
-- Aggregation
+- Python Fundamentals
+- NumPy
+- Programming Logic
+- Data Structures
+- Introductory Data Analysis
 
-### Lab 2 — Data Analysis
-
-- Data Cleaning
-- Missing Values
-- GroupBy Operations
-- Descriptive Statistics
-- Exploratory Data Analysis (EDA)
-- Working with Real-world Datasets
-
-### Lab 3 — FastAPI Todo CRUD Application
-
-A RESTful Todo API built using **FastAPI**.
-
-### Features
-
-- ✅ Create Todo
-- 📄 Read Todo(s)
-- 🔍 Get Todo by ID
-- ✏️ Update Todo
-- ❌ Delete Todo
-- Request Validation using Pydantic
-- RESTful API Design
-- Interactive Swagger Documentation
+➡️ Read More → **Week 1 README**
 
 ---
 
-## 📅 Week 3 — Data Preprocessing & Machine Learning Fundamentals
+## ✅ Week 2
 
-### Day 1 — Data Preprocessing
-
-- Handling Missing Values
+- Pandas
 - Data Cleaning
-- Encoding Categorical Variables
-- Feature Scaling
-- Data Transformation
-- Titanic Dataset Practice
+- Data Manipulation
+- REST APIs
+- FastAPI
+- CRUD Operations
 
-### Day 2 — Feature Engineering
+➡️ Read More → **Week 2 README**
 
-- Feature Creation
-- Feature Transformation
-- Feature Selection
-- One-Hot Encoding
-- Label Encoding
-- Scaling Techniques
+---
 
-### Day 3 — Exploratory Data Analysis (EDA)
+## ✅ Week 3
 
-- Descriptive Statistics
-- Distribution Analysis
-- Correlation Analysis
-- Histograms
-- Boxplots
-- Scatter Plots
+- Data Preprocessing
+- Feature Engineering
+- Exploratory Data Analysis
+- Statistics for Machine Learning
 - Data Visualization
+- Outlier Detection
+- Data Transformation
 
-### Day 4 — Outlier Detection
-
-- Understanding Outliers
-- Z-Score Method
-- IQR Method
-- Visual Detection
-- Outlier Treatment
-- Impact of Outliers on Machine Learning Models
+➡️ Read More → **Week 3 README**
 
 ---
 
-# 🛠 Tech Stack
+## ✅ Week 4
+
+- Linear Regression
+- Decision Trees
+- Support Vector Machines
+- Cross Validation
+- Principal Component Analysis
+- K-Means Clustering
+- Model Evaluation
+
+➡️ Read More → **Week 4 README**
+
+---
+
+## ✅ Week 5
+
+- Deep Learning
+- TensorFlow
+- PyTorch
+- Neural Networks
+- GPU Acceleration
+- Image Classification
+- AutoML
+
+➡️ Read More → **Week 5 README**
+
+---
+
+# 🚀 Featured Projects
+
+| Project | Description | Technologies |
+|----------|-------------|--------------|
+| Todo CRUD API | RESTful API for task management | FastAPI, Pydantic |
+| Data Preprocessing Pipeline | Cleaning and preparing datasets | Pandas, NumPy |
+| Exploratory Data Analysis | Statistical analysis and visualization | Pandas, Matplotlib |
+| Machine Learning Models | Regression, Classification & Clustering | Scikit-learn |
+| Deep Learning Labs | Neural network implementation | TensorFlow, PyTorch |
+
+---
+
+# 💡 Skills Acquired
+
+### Programming
 
 - Python
-- Jupyter Notebook
-- NumPy
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-learn
-- SciPy
+- Object-Oriented Programming
+- Problem Solving
+
+### Data Analysis
+
+- Data Cleaning
+- Data Manipulation
+- Feature Engineering
+- Data Visualization
+- Exploratory Data Analysis
+
+### Machine Learning
+
+- Regression
+- Classification
+- Clustering
+- Feature Selection
+- Model Evaluation
+- Cross Validation
+- PCA
+
+### Deep Learning
+
+- Artificial Neural Networks
+- TensorFlow
+- PyTorch
+- Forward Propagation
+- Backpropagation
+- Gradient Descent
+- Image Classification
+
+### Backend Development
+
 - FastAPI
-- Pydantic
-- Uvicorn
-- Git
-- GitHub
-
----
-
-# 🚀 Getting Started
-
-## Clone the Repository
-
-```bash
-git clone https://github.com/ahmadbilal339/ai-bootcamp.git
-```
-
-## Navigate to the Repository
-
-```bash
-cd ai-bootcamp
-```
-
-## Install Dependencies
-
-```bash
-pip install numpy pandas matplotlib seaborn scikit-learn fastapi uvicorn jupyter scipy
-```
-
----
-
-# ▶️ Running the FastAPI Project
-
-Navigate to the FastAPI project:
-
-```bash
-cd week2/week2_lab3/todo-fastAPI
-```
-
-Start the development server:
-
-```bash
-uvicorn main:app --reload
-```
-
-Open your browser:
-
-### Swagger UI
-
-```
-http://127.0.0.1:8000/docs
-```
-
-### ReDoc
-
-```
-http://127.0.0.1:8000/redoc
-```
+- REST APIs
+- CRUD Operations
+- Request Validation
 
 ---
 
 # 📈 Learning Progress
 
-| Week | Topics | Status |
-|------|--------|--------|
-| Week 1 | Python Fundamentals & NumPy | ✅ Completed |
-| Week 2 | Pandas, Data Analysis & FastAPI CRUD API | ✅ Completed |
-| Week 3 | Data Preprocessing, Feature Engineering, EDA & Outlier Detection | ✅ Completed |
-| Upcoming | Machine Learning Algorithms | 🚀 In Progress |
+| Week | Status |
+|------|--------|
+| Week 1 | ✅ Completed |
+| Week 2 | ✅ Completed |
+| Week 3 | ✅ Completed |
+| Week 4 | ✅ Completed |
+| Week 5 | ✅ Completed |
 
 ---
 
-# 🎯 Learning Objectives
+# 🎓 Key Learning Outcomes
 
-- Master Python Programming
-- Build strong NumPy & Pandas skills
-- Perform Data Cleaning & Data Analysis
-- Understand Feature Engineering
-- Learn Data Preprocessing techniques
-- Detect & Handle Outliers
-- Develop REST APIs using FastAPI
-- Build Machine Learning models
-- Create real-world AI projects
+Throughout this bootcamp, I have developed practical experience in:
+
+- Writing clean and maintainable Python code.
+- Working with structured datasets.
+- Cleaning and preprocessing real-world data.
+- Performing exploratory data analysis.
+- Building RESTful APIs using FastAPI.
+- Implementing Machine Learning algorithms.
+- Evaluating predictive models.
+- Developing Deep Learning models using TensorFlow and PyTorch.
+- Understanding the complete AI development workflow.
 
 ---
 
-# 🌱 Future Topics
+# 🌱 Future Learning Goals
 
-- Supervised Machine Learning
-- Unsupervised Learning
-- Regression
-- Classification
-- Clustering
-- Model Evaluation
-- Hyperparameter Tuning
-- Deep Learning
+The next phase of my learning journey includes:
+
 - Natural Language Processing (NLP)
+- Large Language Models (LLMs)
+- Retrieval-Augmented Generation (RAG)
+- AI Agents
 - Computer Vision
+- Reinforcement Learning
 - MLOps
+- Docker for AI
+- Kubernetes
+- Model Deployment
+- AWS & Azure AI Services
 
 ---
 
-# 🤝 Contributing
+# 🚀 Getting Started
 
-This repository is maintained as part of my learning journey.
+Clone the repository:
 
-Suggestions, improvements, and feedback are always welcome.
+```bash
+git clone https://github.com/your-username/ai-bootcamp.git
+```
+
+Navigate to the project:
+
+```bash
+cd ai-bootcamp
+```
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
+```
+
+Launch Jupyter Notebook:
+
+```bash
+jupyter notebook
+```
+
+---
+
+# 🤝 Contributions
+
+This repository primarily serves as my personal learning portfolio. Suggestions, improvements, and constructive feedback are always welcome.
+
+If you discover an issue or have recommendations, feel free to open an issue or submit a pull request.
+
+---
+
+# 📄 License
+
+This repository is intended for educational and learning purposes.
 
 ---
 
 # ⭐ Support
 
-If you found this repository helpful, consider giving it a ⭐ on GitHub.
+If you found this repository useful or enjoyed exploring the projects, consider giving it a ⭐ on GitHub. Your support is appreciated and helps motivate continued learning and improvement.
 
 ---
 
-# 👨‍💻 Author
+## 👨‍💻 Author
 
 **Ahmad Bilal**
 
-- GitHub: https://github.com/ahmadbilal339
+Passionate about Artificial Intelligence, Machine Learning, Deep Learning, and Backend Development. This repository reflects my continuous learning journey through hands-on implementation and practical problem solving.
 
 ---
 
-> **"Every expert was once a beginner. Consistency and hands-on practice are the keys to mastery."**
+> **"The best way to learn AI is by building real projects, experimenting with data, and continuously improving through practice."**
